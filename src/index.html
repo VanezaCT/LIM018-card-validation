@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+    <div class="welcome">
+      <img class="banner" src="banner.png">
+      <p class="text1">Con tan solo $1 dolar accede a ver y descargar las mejores peliculas de terror y en la mejor
+        calidad.</p>
+      <p class="text2">Ingresa tu nombres y registrate.</p>
+      <input id="enterName" class="enterName" type="text" placeholder="ingresa tu nombre"><br>
+      <button id="enter" class="enter" type="button">Ingresar</button>
+    </div>
+    <div class="app">
+      <p id=saludo></p>
+      <input class="name" type="text" placeholder="nombre"><br>
+      <input class="email" type="text" placeholder="correo"><br>
+      <input class="cardNumber" id="cardNumber" type="text" placeholder="numero de tarjeta"><br>
+      <input class="date" type="month">
+      <input class="ccv" type="text" placeholder="ccv"><br>
+      <button class="submit" id="pagar" type="submit">PAGAR $1</button>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
 </html>

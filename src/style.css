@@ -1,0 +1,113 @@
+body{
+    background-image: url("fondo.png");
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align: center;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+}
+
+.banner{
+    width: 80%;
+}
+
+#saludo{
+    font-size: 22px;
+}
+
+.content{
+    text-align: left;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.enterName {
+    width: 220px;
+    font-size: 20px;
+    padding-left: 15px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid rgba(253, 253, 253, 0.88);
+    background: rgba(253, 253, 253, 0.88);
+    margin-bottom: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.enter {
+    width: 200px;
+    height: 40px;
+    border: 0px solid rgba(0, 169, 157, 0.26);
+    background: rgba(0, 169, 157, 0.26);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.app{
+    text-align: center;
+    border: 0px solid rgba(0, 169, 157, 0.26);
+    width: 600px;
+    height: 324px;
+    border-radius: 15px;
+    background: rgba(0, 169, 157, 0.26);
+    padding-top: 10px;
+    margin-top: -350px;
+}
+
+.name{
+    width: 278px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgba(253, 253, 253, 0.88);
+    background: rgba(253, 253, 253, 0.88);
+    margin-bottom: 10px;
+}
+
+.email {
+    width: 278px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgba(253, 253, 253, 0.88);
+    background: rgba(253, 253, 253, 0.88);
+    margin-bottom: 10px;
+}
+
+.cardNumber {
+    width: 278px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgba(253, 253, 253, 0.88);
+    background: rgba(253, 253, 253, 0.88);
+    margin-bottom: 10px;
+}
+
+.date {
+    width: 180px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgba(253, 253, 253, 0.88);
+    background: rgba(253, 253, 253, 0.88);
+}
+
+.ccv {
+    width: 90px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgba(253, 253, 253, 0.88);
+    background: rgba(253, 253, 253, 0.88);
+    margin-bottom: 10px;
+}
+
+.submit{
+    width: 127px;
+    height: 35px;
+    border: 0px solid rgba(0, 169, 157, 0.26) ;
+    background: rgba(0, 169, 157, 0.26);
+    border-radius: 7px;
+    color: white;
+}
