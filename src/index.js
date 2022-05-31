@@ -1,6 +1,7 @@
 import validator from './validator.js';
 
 //console.log(validator.isValid(pagar));
+
 window.addEventListener('load', init, false);
 function init() {
     let welcome = document.querySelector('.welcome');
@@ -26,12 +27,24 @@ document
 
     })
 
+/*let input = document.getElementById('cardNumber')
+input.addEventListener('keypress', (e) => {
+    e.preventDefault()
+    let codigoKey = e.keyCode
+    let valorkey = String.fromCharCode(codigoKey)
+    let valor = parseInt(valorkey)
+    if (valor) {
+        input.value += valor
+    }
+})*/
+
 document
     .getElementById("pagar")
     .addEventListener("click", function (event) {
         event.preventDefault();
-
+        
          let pagar =  document.getElementById("cardNumber").value ;
-        validator.isValid(pagar);
+         validator.isValid(pagar);
         validator.maskify(pagar)
+        
     })
