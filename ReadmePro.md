@@ -14,4 +14,4 @@ Registrarse y realizar el pago donde se valida el numero de su trajetaa para ten
     - Se realizon un contraste de colores adecuados que vayan con vayan con la temática, se mejoró el codigo de acuerdo se fue aprediendo y 
       recibiendo el feedback de mis compañeras y los coach, en la foma de poner los if con operadores ternarios entre otros.
 
-![Prototipofinar](https://drive.google.com/file/d/1N-WXtmJ_Ltz6UCU78dgmZHnxTq5IA-tI/view?usp=sharing)
+![Prototipofinar](https://drive.google.com/drive/folders/1rBialCVxnNofSWLHDZWRt6Z0Ux0QJfZ_)
