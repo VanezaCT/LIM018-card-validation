@@ -112,3 +112,7 @@ select {
     border-radius: 7px;
     color: white;
 }
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -9,7 +9,7 @@ function init() {
     let app = document.querySelector('.app');
     app.style.visibility = 'hidden';
     let boton = document.querySelector('.enter');
-    boton.addEventListener('click', function (e) {
+    boton.addEventListener('click', function () {
         if (app.style.visibility === 'hidden') {
             app.style.visibility = 'visible';
             welcome.style.visibility = 'hidden';
@@ -27,24 +27,50 @@ document
 
     })
 
-/*let input = document.getElementById('cardNumber')
-input.addEventListener('keypress', (e) => {
-    e.preventDefault()
-    let codigoKey = e.keyCode
-    let valorkey = String.fromCharCode(codigoKey)
-    let valor = parseInt(valorkey)
-    if (valor) {
-        input.value += valor
+function valida() {
+
+    let todo_correcto = true
+ 
+    if (document.getElementById('name').length<1) {
+        todo_correcto = false   
     }
-})*/
+    var expresion = /^[a-z][\w.-]+@\w[\w.-]+\.[\w.-]*[a-z][a-z]$/i;
+    var email = document.getElementById('email').value;
+    if (!expresion.test(email)) {
+        todo_correcto = false
+    }
+    if (document.getElementById('month').value == '') {
+        todo_correcto = false
+    }
+    if (document.getElementById('year').value == '') {
+        todo_correcto = false
+    }
+    if (document.getElementById('ccv').value.length <1) {
+        todo_correcto = false
+    }
+    if (!todo_correcto) {
+        alert('Algunos campos no están correctos, vuelva a revisarlos');
+    }
+    return todo_correcto
+}
+
 
 document
     .getElementById("pagar")
     .addEventListener("click", function (event) {
         event.preventDefault();
         
-         let pagar =  document.getElementById("cardNumber").value ;
-         validator.isValid(pagar);
-        validator.maskify(pagar)
-        
+         let pagar =  document.getElementById('cardNumber') ;
+         let validar = validator.isValid(pagar.value);
+        let ocultar = validator.maskify(pagar.value)
+        if(validar==true){
+            document.getElementById("validTarjeta").innerText = "Pago procesado"
+            pagar.value=ocultar
+        }
+        else{
+            document.getElementById("validTarjeta").innerText = "Tarjeta invalida"
+        }
+    
+        valida()
     })
+        
