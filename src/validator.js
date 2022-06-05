@@ -19,7 +19,7 @@ const validator = {
     }
     total = (sumaPar + sumaImpar) % 10
     if (total == 0) {
-      return true;
+      return true; //4551038308687396
      
       
     }

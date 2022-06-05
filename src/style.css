@@ -1,25 +1,25 @@
-body{
+body {
     background-image: url("fondo.png");
     color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
 
-.welcome{
+.welcome {
     text-align: center;
     font-size: 30px;
     display: block;
 }
 
-.banner{
+.banner {
     width: 80%;
 }
 
-#saludo{
+#saludo {
     font-size: 22px;
 }
 
-.content{
+.content {
     text-align: left;
     width: 100%;
     margin-left: 40px;
@@ -48,7 +48,7 @@ body{
     color: white;
 }
 
-.app{
+.app {
     margin: auto;
     border: 0px solid rgba(0, 169, 157, 0.26);
     width: 600px;
@@ -59,7 +59,7 @@ body{
     margin-top: -350px;
 }
 
-.name{
+.name {
     width: 278px;
     height: 35px;
     border-radius: 7px;
@@ -104,15 +104,31 @@ select {
     margin-bottom: 10px;
 }
 
-.submit{
+.submit {
     width: 127px;
     height: 35px;
-    border: 0px solid rgba(0, 169, 157, 0.26) ;
+    border: 0px solid rgba(0, 169, 157, 0.26);
     background: rgba(0, 169, 157, 0.26);
     border-radius: 7px;
     color: white;
 }
 
-h2{
+h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+#content {
+    margin-top: -22%;
+    
+}
+
+img {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+img:hover {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
